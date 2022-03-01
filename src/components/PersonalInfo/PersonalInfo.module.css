@@ -1,0 +1,49 @@
+.personalInfo {
+	display: flex;
+	height: 1080px;
+}
+
+.leftPanel {
+	flex: 1;
+	background-color: white;
+}
+
+.rightPanel {
+	flex: 1;
+	background-color: #000000;
+}
+
+.rightPanel .flexContainer {
+	display: flex;
+	flex-direction: column;
+
+	margin: 100px 100px;
+	margin-left: 150px;
+}
+
+.rightPanel .flexContainer h1 {
+	font-family: Rowdies;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 79px;
+
+	/* Redberry Red */
+
+	color: #fe3b1f;
+}
+.rightPanel .flexContainer p {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 200%;
+	margin-top: 50px;
+	width: 707px;
+	height: 606px;
+	/* or 48px */
+
+	letter-spacing: 0.05em;
+
+	color: #ffffff;
+}
