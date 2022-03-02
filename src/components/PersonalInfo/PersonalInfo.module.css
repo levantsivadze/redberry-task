@@ -1,4 +1,5 @@
 .personalInfo {
+	position: relative;
 	display: flex;
 	height: 1080px;
 }
@@ -6,6 +7,53 @@
 .leftPanel {
 	flex: 1;
 	background-color: white;
+}
+
+.leftPanel .container {
+	margin-top: 131px;
+	margin-left: 105px;
+	height: 792px;
+	width: 716px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container h1 {
+	font-family: Rowdies;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 79px;
+
+	/* Redberry Red */
+	color: #fe3b1f;
+}
+
+.inputContainer {
+	margin-top: 90px;
+	display: flex;
+	flex-direction: column;
+}
+
+.inputContainer .textInput {
+	padding-left: 53px;
+	padding-right: 203px;
+	padding-top: 17px;
+	padding-bottom: 13px;
+
+	font-family: Montserrat;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 17px;
+	margin: 10px auto;
+
+	color: #454545;
+	background: #ffffff;
+	/* Primary Stroke */
+
+	border: 1px solid #525557;
+	box-sizing: border-box;
 }
 
 .rightPanel {
