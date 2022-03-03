@@ -1,32 +1,36 @@
 .wrapper {
-  align-self: flex-end;
-  width: 455px;
-  margin: 150px  150px auto;
-  display:flex;
-  justify-content: center;
-  flex-direction: row;
+	align-self: flex-end;
+	width: 455px;
+
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
 }
 
 .pagCircle {
-  margin: 0 8px;
+	margin: 0 8px;
 	display: inline-block;
 	width: 19px;
 	height: 19px;
 	background-color: #fe3b1f;
 	opacity: 10%;
 	border-radius: 50%;
-  
 }
 
-.pagLeft, .pagRight, img {
-  width:20px;
-  height: 20px;
+.pagCircle.isActive {
+	opacity: 100%;
+}
+
+.pagLeft,
+.pagLeft img,
+.pagRight {
+	width: 20px;
+	height: 20px;
 }
 
 .pagLeft {
-  transform: rotate(-180deg);
+	transform: rotate(-180deg);
 }
-
 
 /* 
 .pagLeft {
@@ -75,5 +79,3 @@
 	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 } */
-
-

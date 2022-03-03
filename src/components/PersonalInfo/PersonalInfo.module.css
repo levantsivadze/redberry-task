@@ -14,8 +14,6 @@
 	margin-left: 105px;
 	height: 792px;
 	width: 716px;
-	display: flex;
-	flex-direction: column;
 }
 
 .container h1 {
@@ -46,7 +44,7 @@
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 17px;
-	margin: 10px auto;
+	margin: 20px auto;
 
 	color: #454545;
 	background: #ffffff;
@@ -56,6 +54,22 @@
 	box-sizing: border-box;
 }
 
+.error-text {
+	margin: auto 150px;
+
+	color: #fe3b1f;
+	font-family: Montserrat;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 11px;
+	line-height: 13px;
+}
+
+.pagination {
+	margin: 250px auto 150px;
+}
+
+/* Right Panel */
 .rightPanel {
 	flex: 1;
 	background-color: #000000;
